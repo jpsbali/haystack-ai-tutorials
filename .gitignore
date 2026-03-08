@@ -1,0 +1,5 @@
+extras/*
+*.png
+.venv
+.env
+.claude/*

@@ -1,0 +1,59 @@
+# Haystack AI RAG Tutorials - Requirements
+# Python 3.9-3.12 recommended
+
+# ===== Core Haystack =====
+haystack-ai
+
+# ===== LLM Providers =====
+openai
+anthropic  # Optional, for Claude models
+cohere     # For reranking
+
+# ===== Embeddings =====
+sentence-transformers
+fastembed
+
+# ===== Document Processing =====
+pypdf
+python-docx
+markdown
+
+# ===== Vector Stores (optional for advanced examples) =====
+# qdrant-client>=1.12.0
+# weaviate-client>=4.9.4
+
+# ===== Evaluation =====
+ragas
+datasets
+
+# ===== Web Search =====
+duckduckgo-search
+google-search-results  # SerperDev API
+
+# ===== Graph Database (for Notebook 4 - GraphRAG) =====
+neo4j
+# py2neo>=2021.2.4  # Alternative Neo4j driver
+
+# ===== Utilities =====
+pandas
+numpy
+matplotlib
+seaborn
+tqdm
+python-dotenv
+requests
+
+# ===== Jupyter =====
+jupyterlab
+ipywidgets
+notebook
+
+# ===== Optional: Local Model Inference =====
+# Uncomment if you want to run models locally
+# torch
+# transformers
+
+# ===== Optional: Additional Haystack Integrations =====
+# haystack-experimental  # For experimental features
+# chroma-haystack        # ChromaDB integration
+# qdrant-haystack        # Qdrant integration
