@@ -57,3 +57,5 @@ notebook
 # haystack-experimental  # For experimental features
 # chroma-haystack        # ChromaDB integration
 # qdrant-haystack        # Qdrant integration
+
+ipykernel
